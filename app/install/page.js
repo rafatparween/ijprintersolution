@@ -476,14 +476,14 @@ function Printersearch() {
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <span className="text-[34px] w-[50px] h-[40px]">2.</span>
-                  <p className="text-[34px] whitespace-nowrap 2xl:ml-[5px] 2xl:mt-[9px]">
+                  <span className="text-[34px] w-[50px] h-[40px] mt-[-26px]">2.</span>
+                  <p className="text-[34px] whitespace-nowrap 2xl:ml-[5px] 2xl:mt-[9px] mb-[23px]">
                     Click Install Setup & driver to complete your printer setup
                   </p>
                 </div>
                 <button
                   onClick={handleButtonClick} // Handle button click to show popup
-                  className="border border-white mt-8 bg-white w-[230px] h-[50px] py-2 px-6 rounded-lg font-bold shadow-md hover:bg-gray-100 transition duration-300 2xl:ml-[-193px] xl:ml-[-187px]"
+                  className="mt-[100px] border border-white bg-white w-[230px] h-[50px] py-2 px-6 rounded-lg font-bold shadow-md hover:bg-gray-100 transition duration-300 2xl:ml-[-193px] xl:ml-[-187px]"
                 >
                   <h1 className="text-[16px] text-black">Install HP Easy Start</h1>
                 </button>
