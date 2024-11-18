@@ -71,11 +71,11 @@ function Home() {
         <section
           className="relative flex flex-col justify-center items-center text-center py-12 h-[409px] bg-cover bg-center"
           style={{
-            backgroundImage: "url('https://as1.ftcdn.net/v2/jpg/05/21/66/12/1000_F_521661218_MNYc5lCrIQUKKwBfIGzxJYHYxZzwNof9.jpg')"
+            backgroundImage:"url(/topback.png)"
           }}
         >
           {/* Overlay div for background color */}
-          <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div>
+          {/* <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div> */}
 
           {/* Content of the section */}
           <div className="relative z-10">
@@ -132,8 +132,8 @@ function Home() {
 
 
           <div className="flex justify-end  ">
-            <img
-              src="https://wingscarepro.com/setup/resources/assets/img/defaultPrinterSetup.png"
+            <Image
+              src="/systemhp.png"
               alt="Printer setup devices"
               width={350}
               height={196}

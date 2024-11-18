@@ -456,10 +456,10 @@ function Printersearch() {
           className="flex flex-col justify-center items-center text-center py-12 relative bg-cover bg-center h-[530px]"
           style={{
             backgroundImage:
-              "url('https://as1.ftcdn.net/v2/jpg/05/21/66/12/1000_F_521661218_MNYc5lCrIQUKKwBfIGzxJYHYxZzwNof9.jpg')",
+              "url(/topback.png)",
           }}
         >
-          <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div>
+          {/* <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div> */}
 
           <div className="relative z-10 text-white 2xl:ml-[-392px] xl:ml-[-85px] mt-[-74px]">
             <h1 className="text-[54px] mb-4 xl:ml-[-145px] 2xl:ml-[-63px]">
