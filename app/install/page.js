@@ -401,8 +401,6 @@
 
 
 "use client";
-
-import Link from "next/link";
 import NavbarSection from "../Components/NavbarSection";
 import Storepage from "../Components/Storepage";
 import FooterSection from "../Components/FooterSection";
